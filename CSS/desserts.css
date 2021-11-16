@@ -1,0 +1,113 @@
+.loader-container {
+    position: fixed;
+    left: 0; top: 0;
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.loader-container.fade-out {
+    top: -120%;
+}
+
+body {
+  background-color: #5a4f4f;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+#logo {
+    position: absolute;
+    width: 14%;
+    z-index: 2;
+    margin-top: 0%;
+    margin-left: 6%;
+}
+
+/* Navbar */
+
+.navbar {
+    height: 65px;
+    z-index: 1;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Modify the background color */
+
+.navbar-custom {
+    background-color: #2d2424;
+}
+
+/* Introduction */
+
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 16vw;
+    max-height: 100%;
+    z-index: -100;
+
+}
+
+#middle {
+    position: relative;
+    justify-content: center;
+    margin-top: 16%;
+    height: max-content;
+    width: 85%;
+    background-color: #2d2424;
+}
+
+#row {
+    padding-top: 4%;
+}
+
+/* Buttons */
+
+.btn {
+    color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #ff4e22 !important;
+
+}
+
+.btn-primary:active {
+    background-color: #b8310f !important;
+}
+
+.btn-primary:hover {
+    background-color: #ff704d !important;
+}
+
+/* Modal */
+
+.modal .modal-dialog .modal-content {  
+    background-color: #ff4e22; 
+}
+
+.modal .modal-dialog .modal-content .modal-title {
+    color: #fff;
+}
+
+.modal .modal-dialog .modal-content #btn {
+    color: #fff;
+}
